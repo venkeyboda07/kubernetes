@@ -1,0 +1,35 @@
+azure kiubernetes installing by cli
+
+# variables
+
+export MY_RESOURCE_GROUP_NAME="myAKSResourceGroup"
+export REGION="eastus"
+export MY_AKS_CLUSTER_NAME="myAKSCluster"
+export MY_DNS_LABEL="mydnslabel"
+
+# creates a resource group
+az group create \
+    --name $MY_RESOURCE_GROUP_NAME \
+    --location $REGION
+
+# creates an aks cluster 
+# note: this command i will be running on cloudshell as it generates ssh keys
+az aks create \
+    --resource-group $MY_RESOURCE_GROUP_NAME \
+    --name $MY_AKS_CLUSTER_NAME \
+    --node-count 2 \
+    --generate-ssh-keys \
+    --node-vm-size Standard_B2ms
+
+# kubectl can be install with az aks install-cli
+
+# to get the kubeconfig file
+az aks get-credentials \
+    --resource-group $MY_RESOURCE_GROUP_NAME \
+    --name $MY_AKS_CLUSTER_NAME
+
+# delete the resource group
+az group delete \
+    --name $MY_RESOURCE_GROUP_NAME \
+    --yes \
+    --no-wait

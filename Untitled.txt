@@ -1,0 +1,7 @@
+
+
+https://172.30.1.2:6443
+
+kubectl config set-cluster thor --server=https://172.30.1.2:6443 --certificate-authority=/etc/kubernetes/pki/ca.crt
+
+kubectl config set-context thor-context --cluster=thor --user=thor

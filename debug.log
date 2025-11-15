@@ -1,0 +1,132 @@
+[?2004h]0;MINGW64:/c/bashscriptcli
+[32mhp@LAPTOP-IHM94Q6A [35mMINGW64 [33m/c/bashscriptcli[36m[0m
+$ 
+[?2004l[?2004h]0;MINGW64:/c/bashscriptcli
+[32mhp@LAPTOP-IHM94Q6A [35mMINGW64 [33m/c/bashscriptcli[36m[0m
+$ 
+[?2004l[?2004h]0;MINGW64:/c/bashscriptcli
+[32mhp@LAPTOP-IHM94Q6A [35mMINGW64 [33m/c/bashscriptcli[36m[0m
+$ #!/bin/bash
+[?2004l[?2004h]0;MINGW64:/c/bashscriptcli
+[32mhp@LAPTOP-IHM94Q6A [35mMINGW64 [33m/c/bashscriptcli[36m[0m
+$ 
+[?2004l[?2004h]0;MINGW64:/c/bashscriptcli
+[32mhp@LAPTOP-IHM94Q6A [35mMINGW64 [33m/c/bashscriptcli[36m[0m
+$ set -e  # Exit on error
+[?2004l[?2004h]0;MINGW64:/c/bashscriptcli
+[32mhp@LAPTOP-IHM94Q6A [35mMINGW64 [33m/c/bashscriptcli[36m[0m
+$ set -x  # Start debugging
+[?2004l++ __git_ps1
+++ local exit=0
+++ local pcmode=no
+++ local detached=no
+++ local 'ps1pc_start=\u@\h:\w '
+++ local 'ps1pc_end=\$ '
+++ local 'printf_format= (%s)'
+++ case "$#" in
+++ printf_format=' (%s)'
+++ local ps1_expanded=yes
+++ '[' -z '' ']'
+++ '[' -z '5.2.37(1)-release' ']'
+++ shopt -q promptvars
+++ local repo_info rev_parse_exit_code
++++ git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --show-ref-format --short HEAD
+++ repo_info=
+++ rev_parse_exit_code=128
+++ '[' -z '' ']'
+++ return 0
+[?2004h]0;MINGW64:/c/bashscriptcli
+[32mhp@LAPTOP-IHM94Q6A [35mMINGW64 [33m/c/bashscriptcli[36m[0m
+$ 
+[?2004l++ __git_ps1
+++ local exit=0
+++ local pcmode=no
+++ local detached=no
+++ local 'ps1pc_start=\u@\h:\w '
+++ local 'ps1pc_end=\$ '
+++ local 'printf_format= (%s)'
+++ case "$#" in
+++ printf_format=' (%s)'
+++ local ps1_expanded=yes
+++ '[' -z '' ']'
+++ '[' -z '5.2.37(1)-release' ']'
+++ shopt -q promptvars
+++ local repo_info rev_parse_exit_code
++++ git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --show-ref-format --short HEAD
+++ repo_info=
+++ rev_parse_exit_code=128
+++ '[' -z '' ']'
+++ return 0
+[?2004h]0;MINGW64:/c/bashscriptcli
+[32mhp@LAPTOP-IHM94Q6A [35mMINGW64 [33m/c/bashscriptcli[36m[0m
+$ echo "Starting script..."
+[?2004l+ echo 'Starting script...'
+Starting script...
+++ __git_ps1
+++ local exit=0
+++ local pcmode=no
+++ local detached=no
+++ local 'ps1pc_start=\u@\h:\w '
+++ local 'ps1pc_end=\$ '
+++ local 'printf_format= (%s)'
+++ case "$#" in
+++ printf_format=' (%s)'
+++ local ps1_expanded=yes
+++ '[' -z '' ']'
+++ '[' -z '5.2.37(1)-release' ']'
+++ shopt -q promptvars
+++ local repo_info rev_parse_exit_code
++++ git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --show-ref-format --short HEAD
+++ repo_info=
+++ rev_parse_exit_code=128
+++ '[' -z '' ']'
+++ return 0
+[?2004h]0;MINGW64:/c/bashscriptcli
+[32mhp@LAPTOP-IHM94Q6A [35mMINGW64 [33m/c/bashscriptcli[36m[0m
+$ 
+[?2004l++ __git_ps1
+++ local exit=0
+++ local pcmode=no
+++ local detached=no
+++ local 'ps1pc_start=\u@\h:\w '
+++ local 'ps1pc_end=\$ '
+++ local 'printf_format= (%s)'
+++ case "$#" in
+++ printf_format=' (%s)'
+++ local ps1_expanded=yes
+++ '[' -z '' ']'
+++ '[' -z '5.2.37(1)-release' ']'
+++ shopt -q promptvars
+++ local repo_info rev_parse_exit_code
++++ git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --show-ref-format --short HEAD
+++ repo_info=
+++ rev_parse_exit_code=128
+++ '[' -z '' ']'
+++ return 0
+[?2004h]0;MINGW64:/c/bashscriptcli
+[32mhp@LAPTOP-IHM94Q6A [35mMINGW64 [33m/c/bashscriptcli[36m[0m
+$ # Sample command that may fail
+[?2004l++ __git_ps1
+++ local exit=0
+++ local pcmode=no
+++ local detached=no
+++ local 'ps1pc_start=\u@\h:\w '
+++ local 'ps1pc_end=\$ '
+++ local 'printf_format= (%s)'
+++ case "$#" in
+++ printf_format=' (%s)'
+++ local ps1_expanded=yes
+++ '[' -z '' ']'
+++ '[' -z '5.2.37(1)-release' ']'
+++ shopt -q promptvars
+++ local repo_info rev_parse_exit_code
++++ git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --show-ref-format --short HEAD
+++ repo_info=
+++ rev_parse_exit_code=128
+++ '[' -z '' ']'
+++ return 0
+[?2004h]0;MINGW64:/c/bashscriptcli
+[32mhp@LAPTOP-IHM94Q6A [35mMINGW64 [33m/c/bashscriptcli[36m[0m
+$ some_command_here
+[?2004l+ some_command_here
+bash: some_command_here: command not found

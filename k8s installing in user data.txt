@@ -1,0 +1,9 @@
+Install docker on all the nodes
+curl -fsSL https://get.docker.com -o install-docker.sh
+sh install-docker.sh
+sudo usermod -aG docker ubuntu
+Now exit and relogin and verify docker installation with docker info on all nodes
+Now install cri-dockerd
+cd /tmp
+wget https://github.com/Mirantis/cri-dockerd/releases/download/v0.3.16/cri-dockerd_0.3.16.3-0.ubuntu-jammy_amd64.deb
+sudo dpkg -i cri-dockerd_0.3.16.3-0.ubuntu-jammy_amd64.deb
